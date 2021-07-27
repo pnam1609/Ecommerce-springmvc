@@ -1,0 +1,84 @@
+body{
+    margin:0;
+    padding: 0;
+    background: #487eb0;
+}
+.errors{
+	color:white;
+	font-style: italic;
+}
+
+.signin-form{
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    background: url("Images/bg_signin.png");
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+.signin-form h1{
+    margin-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    font-size: 45px;
+}
+
+.signin-form input{
+    display: block;
+    width:350px;
+    margin-left: 20px;
+    height: 40px;
+    text-align: center;
+    border: none;
+}
+
+.txtb{
+    margin: 20px 0;
+    background:  #bdc3c7;
+    border-radius: 6px;
+
+}
+.signin-btn{
+    margin-top:60px ;
+    margin-bottom: 20px;
+    background: #487eb0;
+    color:#fff;
+    border-radius: 45px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.signin-btn:hover{
+    transform: scale(0.95);
+}
+.signin-end .signin-fpw{
+    display: block;
+    margin-left:-10rem; 
+    margin-bottom: 8px;
+    text-decoration: none;
+    color:#fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    transition: 0.8s;
+}
+.signin-end .signin-fpw1{
+    display: block;
+    margin-left:-18rem; 
+    margin-bottom: 5px;
+    text-decoration: none;
+    color:#fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    transition: 0.8s;
+}
+.signin-end a:hover{
+    color:#3867d6;
+}
+
+.signin-form input:focus{
+    outline: none;
+}

@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+    background: #434343;
+  }
+ /*---Header --*/ 
+#navbarHeader{
+    background-color: #f1f2f6;
+}  
+#header-text{
+    font-family: "montserrat",sans-serif;
+    font-size: 130%;
+    color:#747d8c;
+    font-style: italic;
+}
+.navbar-nav .cart {
+    margin-top:3px;
+}
+
+/*---Navigation --*/ 
+#navbarNav{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    background:#ced6e0;
+}
+.navbar-brand img{
+    height: 2.5rem;
+    padding-left: 1rem;
+}
+#navbarMenu .navbar-nav li{
+    padding-left: 3.5rem;
+}
+#navbarMenu .navbar-nav a{
+    color:#2f3542;  
+}
+#navbarMenu .navbar-nav a:hover{
+    color:#20bf6b;
+} 
+
+
+/*---Our Team --*/
+.our-team{
+    padding: 40px 0;
+    background: #f1f1f1;
+    color:#434343;
+    text-align: center;
+}
+.our-team .col-12{
+    color:#273c75;
+    font-size: 25px;
+    font-family: "montserrat",sans-serif;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.our-team .col-md-4 .border{
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+}
+
+.border img{
+    margin-top: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.border .fullname{
+    font-size:20px;
+    text-transform: uppercase;
+    margin:15px 0;
+    color:#3c6382;
+}
+.border .starts{
+    color: #6ab04c;
+    margin-bottom: 10px;
+}
+.border .content p{
+   margin: 10px;
+   text-align: left;
+   font-size: 15px;
+   font-family: "montserrat",sans-serif;
+   color:#3c6382;
+}
+
+
+
+
+/*---Footer Start --*/
+
+.light{
+    margin-top:1.5rem;
+}
+.container .col-12 h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 30px;
+    color:#1e3799;
+}
+.container .col-12 a{
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    background: #2c3e50;
+    color:white;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4;
+    font-size: 24px;
+    margin:5px 20px;
+}
+.container .col-12 a:hover{
+    background: #e67e22;
+    text-decoration: none;
+}
+
+/*---Footer End --*/
+.padding .col-md-4{
+    background: #718093;
+    color:white;
+    padding-top: 2rem;
+}
+.padding .col-md-4 .light{
+    width:75%;
+    border: 1px solid #2f3640;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+.padding .col-md-4 .footer-icons-PTTT i{
+    display: inline-flex;
+    width: 45px;
+    height: 45px;
+    background: #2c3e50;
+    color:white;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4;
+    font-size: 24px;
+    margin:15px 10px;
+}
+.container-fluid .col-md-4 h5{
+    text-transform: uppercase;
+
+}
+.container-fluid .col-md-4 h6{
+    text-transform: uppercase;
+    font-size: 20px;
+}

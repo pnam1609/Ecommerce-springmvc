@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+  }
+ /*---Header --*/ 
+#navbarHeader{
+    background-color: #f1f2f6;
+}  
+#header-text{
+    font-family: "montserrat",sans-serif;
+    font-size: 130%;
+    color:#747d8c;
+    font-style: italic;
+}
+.navbar-nav .cart {
+    margin-top:3px;
+}
+
+/*---Navigation --*/ 
+#navbarNav{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    background:#ced6e0;
+}
+.navbar-brand img{
+    height: 2.5rem;
+    padding-left: 1rem;
+}
+#navbarMenu .navbar-nav li{
+    padding-left: 3.5rem;
+}
+#navbarMenu .navbar-nav a{
+    color:#2f3542;  
+}
+#navbarMenu .navbar-nav a:hover{
+    color:#20bf6b;
+}
+
+
+thead th{
+    color:#636e72;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+tbody #subtt{
+    color:#636e72;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}

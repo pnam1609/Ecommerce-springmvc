@@ -1,0 +1,130 @@
+html{
+    scroll-behavior: smooth;
+  }
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+    background: #434343;
+  }
+ /*---Header --*/ 
+#navbarHeader{
+    background-color: #f1f2f6;
+}  
+#header-text{
+    font-family: "montserrat",sans-serif;
+    font-size: 130%;
+    color:#747d8c;
+    font-style: italic;
+}
+.navbar-nav .cart {
+    margin-top:3px;
+}
+
+/*---Manager --*/
+.Manage-menu li{
+    list-style: none;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    background: #2980b9;
+    border-radius: 8px;
+    color: white;
+}
+.Manage-menu a:hover{
+    text-decoration: none;
+}
+.container .col-md-9 .btn-outline-warning{
+	width:180px;
+    font-size:15px;
+}
+.container .col-md-9 .btn-outline-warning a{
+	 color: #fff;
+}
+.container .col-md-9 .btn-outline-warning a:hover{
+	text-decoration: none;
+}
+
+.container .col-md-9 h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "montserrat",sans-serif;
+    font-size: 25px;
+    color:#1e3799;
+    margin-bottom: 5px;
+    margin-top:5px;
+}
+
+.container .col-md-9 tbody img{
+	width:60px;
+}
+
+/*---Footer Start --*/
+
+.light{
+    margin-top:1.5rem;
+}
+.container .col-12 h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 30px;
+    color:#1e3799;
+}
+.container .col-12 a{
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    background: #2c3e50;
+    color:white;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4;
+    font-size: 24px;
+    margin:5px 20px;
+}
+.container .col-12 a:hover{
+    background: #e67e22;
+    text-decoration: none;
+}
+
+/*---Footer End --*/
+.container-fluid .col-md-4{
+    background: #718093;
+    color:white;
+    padding-top: 2rem;
+}
+.container-fluid .col-md-4 .light{
+    width:75%;
+    border: 1px solid #2f3640;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+.container-fluid .col-md-4 .footer-icons-PTTT i{
+    display: inline-flex;
+    width: 45px;
+    height: 45px;
+    background: #2c3e50;
+    color:white;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4;
+    font-size: 24px;
+    margin:15px 10px;
+}
+.container-fluid .col-md-4 h5{
+    text-transform: uppercase;
+
+}
+.container-fluid .col-md-4 h6{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/*---Sroll On Top --*/
+.container-fluid .col-md-4 .btn-outline-warning{
+    margin:50px 0 0 280px;
+    font-size:20px;
+}
